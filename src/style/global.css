@@ -54,6 +54,7 @@ a {
 .hero-img {
   position: absolute;
   display: flex;
+  flex-direction: column;
 }
 
 .hero-img img {
