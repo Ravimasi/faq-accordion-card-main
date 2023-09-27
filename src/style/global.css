@@ -20,11 +20,11 @@ body {
   font-family: var(--font-name), sans-serif !important;
   font-weight: 400;
   background-repeat: no-repeat;
-  min-height: 100vh;
-  min-height: 100svh;
+  max-height: 20%;
+  /* min-height: 100svh; */
   display: grid;
   justify-content: center;
-  padding: 13rem 2rem 6.5rem 2rem;
+  padding: 10rem 2rem 6.5rem 2rem;
   /* margin: 15rem 2rem 6.5rem 2rem; */
   font-size: 1.2rem;
 }
@@ -55,6 +55,7 @@ a {
   position: absolute;
   display: flex;
   flex-direction: column;
+  pointer-events: none;
 }
 
 .hero-img img {
@@ -74,7 +75,7 @@ a {
 
 
 .wrapper {
-  padding: 90px 20px 45px 20px;
+  padding: 100px 20px 45px 20px;
 }
 
 .FAQ {
@@ -98,7 +99,7 @@ a {
 }
 
 .questions-list li:nth-child(n + 1) {
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 .questions-list img {
